@@ -65,7 +65,7 @@ https://github.com/LasiduDilshan/UART-using-Verilog
 ### Components
 
 | File              | Description |
-
+|-------------------|-------------|
 | interface.sv      | UART interface signals |
 | transaction.sv    | Randomized transaction object |
 | generator.sv      | Constrained-random stimulus generation |
@@ -146,7 +146,7 @@ Coverage was implemented on generated UART data values.
 ### Results
 
 | Metric                    | Result |
-
+|---------------------------|--------|
 | Transactions Generated    | 1000 |
 | Functional Coverage       | 100% |
 
@@ -187,7 +187,7 @@ Checks that valid data is available whenever the receiver asserts ready.
 ### Assertion Results
 
 | Assertion   | Result |
-
+|-------------|--------|
 | tx_start    | PASS |
 | valid_data  | PASS |
 
@@ -200,7 +200,7 @@ No assertion failures were observed across all 1000 transactions.
 ### Test Configuration
 
 | Parameter         | Value |
-
+|-------------------|-------|
 | Clock Frequency   | 50 MHz |
 | Baud Rate         | 115200 |
 | Transactions      | 1000 |
@@ -244,6 +244,8 @@ The waveform demonstrates:
 - Correct reconstruction of received data
 
 ![Waveform](docs/waveform_screenshot.png)
+![Waveform](docs/waveform_screenshot1.png)
+![Waveform](docs/waveform_screenshot2.png)
 
 ---
 
