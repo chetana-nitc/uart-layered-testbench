@@ -244,7 +244,9 @@ The waveform demonstrates:
 - Correct reconstruction of received data
 
 ![Waveform](docs/waveform_screenshot.png)
+
 ![Waveform](docs/waveform_screenshot1.png)
+
 ![Waveform](docs/waveform_screenshot2.png)
 
 ---
